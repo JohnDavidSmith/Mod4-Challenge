@@ -1,19 +1,19 @@
 
 const questions = [
     {
-      question: "What is the capital of France?",
-      choices: ["London", "Paris", "Berlin", "Madrid"],
-      answer: "Paris"
+      question: "What is the tag we use to link JavaScript file?",
+      choices: ["hrft", "http", "script", "img"],
+      answer: "script"
     },
     {
-      question: "What is the largest planet in our solar system?",
-      choices: ["Saturn", "Jupiter", "Mars", "Neptune"],
-      answer: "Jupiter"
+      question: "Is the order matter when we link JavaScript file?",
+      choices: ["Yes", "No", "It depends", "All the above"],
+      answer: "Yes"
     },
     {
-      question: "What is the highest mountain in the world?",
-      choices: ["Mount Everest", "Mount Kilimanjaro", "Mount Fuji", "Mount McKinley"],
-      answer: "Mount Everest"
+      question: "How many ways we can define a function?",
+      choices: ["one", "Two", "Three", "All the above"],
+      answer: "Two"
     }
   ];
   
@@ -129,7 +129,7 @@ showHighScores();
             setTimeout(() => {
               confirmationMessage.style.display = 'none';
               highscoreQuestion.style.display = 'block';
-            }, 1000);
+            }, 2000);
           }
         });
         // Show the highscore when click Yes
@@ -147,7 +147,6 @@ showHighScores();
         
         });
       
-
       function showHighScores() {
         const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
         const highScoreList = document.getElementById('high-score-list');

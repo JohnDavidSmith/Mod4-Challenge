@@ -1,99 +1,45 @@
 # 04 Web APIs: Code Quiz
 
-## Your Task
+## Description 
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+* This is a timed quiz on JavaScript fundamentals that stores high scores which can give an idea about my progress compared to my peers.
 
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+## Contents 
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+* This timed quiz on JavaScript fundamentals has two buttons one in the top head bar on the left side to show the High Score value when you click it will show the high Score and when you click it again it will hide the High Score value message.
+Another button in the middle of the main page which will start the quiz if you click it. 
 
-## User Story
+## Installation 
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+* Doesn't need any instillation just click either the View High Score Button to show the high score value or click the start button to start the Quiz.
+* When you star the quiz watch the Time Left in the Head Bar on the right side because the quiz will end automatically by the end of that Time Lift value when Time Left = 0.
+  
 
-## Acceptance Criteria
+## Usage 
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+* The quiz will start by pressing the start button then the questions will appear with four options to choose. When you choose on answer the result will appear for 2 second if your answer was correct or wrong then the next will question will appear with four options to answer again and the same process will repeat until you answered all the questions then a confirmation message will pop out asking if you want to see the High Score or not.
 
-## Mock-Up
+* The quiz will end either if the Time Left reached to zero or if you answer all the questions and entered your initial then it will saved automatically and another message will display asking you if you want to see who got the High Score plus the score value itself. If you choose not to see who made the High Score the quiz will end at that point. 
 
-The following animation demonstrates the application functionality:
+* There is a very important point in this quiz that if your answer was wrong the penalty will be deducting 10 seconds form the Time left of the quiz. Therefore, the Time left value on the right side in the head bar will decrease 10 seconds when your answer is wrong.  
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
 
-## Grading Requirements
+![Screenshot Code Quiz](./assets/Screenshot%20Code%20Quiz.png)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+* GitHub link to the Code Quiz Challenge.
 
-This Challenge is graded based on the following criteria: 
+[The Code Quiz Challenge on GitHub]()
 
-### Technical Acceptance Criteria: 40%
+## Credits
 
-* Satisfies all of the preceding acceptance criteria.
+* 
+## License
+* 
 
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Badges
+* 
+## Features
+* 
+## How to Contribute
+* 
+## Test

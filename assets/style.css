@@ -20,15 +20,6 @@ body {
     background-color: pink;
 }
 
-/*h1 {
-    padding: 5px;
-    margin: 1%;
-    text-align: center;
-    background: pink;
-    color: black;
-    line-height: 1.5;
-  }*/
-
 .header p {
     
     flex-basis: 45%;
@@ -58,11 +49,6 @@ body {
     text-align: center;
     margin-bottom: 20px;
   }
-  
-  /* Paragraph Styles 
-  p {
-    margin-bottom: 10px;
-  }*/
   
   /* Button Styles */
   #start-btn {
