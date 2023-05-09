@@ -28,7 +28,7 @@ Another button in the middle of the main page which will start the quiz if you c
 
 * GitHub link to the Code Quiz Challenge.
 
-[The Code Quiz Challenge on GitHub]()
+[The Code Quiz Challenge on GitHub](https://johndavidsmith.github.io/Mod4-Challenge/)
 
 ## Credits
 
